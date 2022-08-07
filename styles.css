@@ -149,7 +149,7 @@ img {
     font-weight: 100;
 }
 
-@media (max-width:769px) {
+@media (min-width:769px) {
     .testimonial_cards {
         width: 380px;
         height: 200px;
@@ -172,7 +172,11 @@ img {
     }
 
     .container {
-        width: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
         height: auto;
     }
 
